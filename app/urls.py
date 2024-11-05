@@ -8,4 +8,5 @@ urlpatterns = [
     path('api/v1/', include('airports.urls')),
     path('api/v1/', include('airline.urls')),
     path('api/v1/', include('flights.urls')),
+    path('api/v1/', include('reservation.urls')),
 ]

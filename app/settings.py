@@ -30,6 +30,7 @@ INSTALLED_APPS = [
     'airports',
     'flights',
     'rest_framework',
+    'reservation',
 ]
 
 MIDDLEWARE = [
